@@ -1,0 +1,61 @@
+age=int(input("введите ваш возраст"))
+if age < 18:
+    print("вы несовершеннолетний")
+elif age >18 and age <65:
+        print("Вы трудоспособный человек")
+elif age <65:
+        print("Вы пенсионер")
+#2
+dengi=int(input("стоимость покупки"))
+if dengi <1000:
+    print("скидка не предоставляется")
+elif dengi >1000 and dengi <5000:
+    print("скидка 5%")
+elif dengi >5000:
+    print("скидка 10%")
+ №3
+n1=int(input("введите первое число"))
+n2=int(input("введите второе число"))
+operation=str(input("введите операцию"))
+if  operation == '+':
+    print(n1+n2)
+elif operation == '-':
+    print(n1-n2)
+elif operation == '*':
+    print(n1*n2)
+elif operation  =='/'
+    print(n1/n2)
+else:
+    print("несовершеннолетний")
+    #4
+num = int(input("введите число:"))
+if num %2 == 0 and num %10 == 6:
+    print(True)
+elif num %2 == 0 and num %10 == 2:
+    print(True)
+else:
+    print(False)
+№5
+    par = ("Пароль")
+    pas = input("Введите пароль:")
+    if pas == par:
+        print("Доступ разрешен.")
+    else:
+        print("Неверный пароль!")
+
+#7
+num1 = int(input("Введите число n: "))
+num2 = int(input("Введите число k: "))
+if num1 % num2 == 0:
+    print(True)
+else:
+    print(False)
+#8
+name = "дима"
+health = 100
+level= 3
+if level> 3 and health > 100:
+    print("Вы готовы к миссии!")
+    elif level
+
+    
